@@ -17,11 +17,11 @@ Welcome to my GitHub profile! I'm a passionate engineer who loves building syste
 
 ## 🛠️ Technologies & Tools
 
-- **Languages**: Python, C++, Bash, JavaScript  
+- **Languages**: Python, C++, Bash, JavaScript,SQL 
 - **DevOps & Infrastructure**: Docker, Kubernetes (K3s, Kubespray), Ansible, HAProxy, NGINX  
 - **Cloud Platforms**: Render, GitHub Actions, local/private hosting  
 - **AI & Workflows**: OpenAI API, Gemini, n8n, LangChain  
-- **Web Development**: Flask, FastAPI, React, TailwindCSS  
+- **Web Development**: Flask, HTML/CSS, JavaScript
 - **Version Control**: Git, GitHub
 
 ---
