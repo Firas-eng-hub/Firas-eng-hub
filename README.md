@@ -44,7 +44,7 @@ Welcome to my GitHub profile! I'm a passionate engineer who loves building syste
 
 ## 📫 Get in Touch
 
-- 💼 LinkedIn: [linkedin.com/in/firas-eng-hub](https://www.linkedin.com/in/mohamed-firas-berriri-287b06337/) *(replace with actual link if different)*  
+- 💼 LinkedIn: [linkedin.com](https://www.linkedin.com/in/mohamed-firas-berriri-287b06337/)
 - ✉️ Email: firasberriri2017@gmail.com 
 - 🌐 Portfolio: Coming soon...
 
