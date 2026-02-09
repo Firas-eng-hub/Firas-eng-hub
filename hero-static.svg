@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroStaticTitle heroStaticDesc">
+  <title id="heroStaticTitle">Mohamed Firas Berriri profile banner static</title>
+  <desc id="heroStaticDesc">Static tactical futurist profile header for reduced-motion preference.</desc>
+  <defs>
+    <linearGradient id="bgGradientStatic" x1="80" y1="24" x2="1200" y2="336" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090B10"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panelGradientStatic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0B1220" stop-opacity="0.65"/>
+    </linearGradient>
+    <pattern id="gridStatic" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" stroke="#1F2937" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="22" fill="url(#bgGradientStatic)"/>
+  <rect width="1280" height="360" rx="22" fill="url(#gridStatic)" opacity="0.32"/>
+  <rect x="32" y="34" width="1216" height="292" rx="18" fill="url(#panelGradientStatic)" stroke="#1F2937" stroke-width="1.2"/>
+
+  <circle cx="1080" cy="86" r="8" fill="#22D3EE"/>
+  <circle cx="1120" cy="86" r="8" fill="#3B82F6"/>
+  <circle cx="1160" cy="86" r="8" fill="#22D3EE"/>
+
+  <text x="78" y="94" fill="#22D3EE" font-size="16" font-family="'Segoe UI', Arial, sans-serif" letter-spacing="2.4">MISSION CONTROL</text>
+  <text x="78" y="146" fill="#E5E7EB" font-size="44" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">Mohamed Firas Berriri</text>
+  <text x="78" y="184" fill="#9CA3AF" font-size="22" font-family="'Segoe UI', Arial, sans-serif">Telecommunications Engineer in Training | DevOps, AI Automation, Cybersecurity</text>
+  <text x="78" y="226" fill="#22D3EE" font-size="16" font-family="'Segoe UI', Arial, sans-serif">Location:</text>
+  <text x="154" y="226" fill="#E5E7EB" font-size="16" font-family="'Segoe UI', Arial, sans-serif">Tunis, Tunisia</text>
+  <text x="78" y="254" fill="#22D3EE" font-size="16" font-family="'Segoe UI', Arial, sans-serif">Target:</text>
+  <text x="134" y="254" fill="#E5E7EB" font-size="16" font-family="'Segoe UI', Arial, sans-serif">Open to internship and entry-level engineering opportunities in DevOps, cloud, security, and AI-e...</text>
+  <text x="78" y="292" fill="#9CA3AF" font-size="14" font-family="'Consolas', 'Courier New', monospace">High-availability Kubernetes deployments and platform automation | AI agents and workflow orchestration with n8n and LLM APIs | Sca...</text>
+
+  <rect x="864" y="180" width="332" height="116" rx="14" fill="#0C1528" stroke="#1F2937"/>
+  <text x="888" y="214" fill="#22D3EE" font-size="14" font-family="'Consolas', 'Courier New', monospace">featured_repos</text>
+  <text x="1082" y="214" fill="#E5E7EB" font-size="14" font-family="'Consolas', 'Courier New', monospace">8</text>
+  <text x="888" y="244" fill="#22D3EE" font-size="14" font-family="'Consolas', 'Courier New', monospace">last_refresh</text>
+  <text x="1012" y="244" fill="#E5E7EB" font-size="14" font-family="'Consolas', 'Courier New', monospace">2026-02-09</text>
+  <text x="888" y="274" fill="#22D3EE" font-size="14" font-family="'Consolas', 'Courier New', monospace">status</text>
+  <text x="944" y="274" fill="#E5E7EB" font-size="14" font-family="'Consolas', 'Courier New', monospace">SEEKING INTERNSHIP AND ENTRY ROLE</text>
+</svg>

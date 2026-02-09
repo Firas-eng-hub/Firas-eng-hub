@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="skillsTitle skillsDesc">
+  <title id="skillsTitle">Capability Matrix</title>
+  <desc id="skillsDesc">Visual matrix summarizing core capabilities and evidence.</desc>
+  <defs>
+    <linearGradient id="skillsBg" x1="80" y1="30" x2="1180" y2="408" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090B10"/>
+      <stop offset="1" stop-color="#10192B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="440" rx="22" fill="url(#skillsBg)"/>
+  <text x="54" y="44" fill="#22D3EE" font-size="16" letter-spacing="2.2" font-family="'Segoe UI', Arial, sans-serif">CORE CAPABILITY MATRIX</text>
+  
+  <g>
+    <rect x="54" y="72" width="560" height="154" rx="14" fill="#0B1220" stroke="#1F2937"/>
+    <rect x="72" y="92" width="6" height="114" rx="3" fill="#22D3EE"/>
+    <text x="90" y="114" fill="#E5E7EB" font-size="22" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">DevOps and Cloud Infrastructure</text>
+    <text x="90" y="146" fill="#9CA3AF" font-size="14" font-family="'Consolas', 'Courier New', monospace">Docker | Kubernetes | K3s | Kubespray | Ansible | HAProxy</text>
+    <text x="90" y="180" fill="#22D3EE" font-size="14" font-family="'Segoe UI', Arial, sans-serif">Deployed and orchestrated multi-node Kubernetes clusters at L2T (06/2025-07/2025).</text>
+  </g>
+
+  <g>
+    <rect x="650" y="72" width="560" height="154" rx="14" fill="#0B1220" stroke="#1F2937"/>
+    <rect x="668" y="92" width="6" height="114" rx="3" fill="#22D3EE"/>
+    <text x="686" y="114" fill="#E5E7EB" font-size="22" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">AI Automation and Workflow Systems</text>
+    <text x="686" y="146" fill="#9CA3AF" font-size="14" font-family="'Consolas', 'Courier New', monospace">OpenAI API | Gemini | n8n | LangChain | Python</text>
+    <text x="686" y="180" fill="#22D3EE" font-size="14" font-family="'Segoe UI', Arial, sans-serif">Designed automation flows for agent-driven email and WhatsApp operations.</text>
+  </g>
+
+  <g>
+    <rect x="54" y="256" width="560" height="154" rx="14" fill="#0B1220" stroke="#1F2937"/>
+    <rect x="72" y="276" width="6" height="114" rx="3" fill="#22D3EE"/>
+    <text x="90" y="298" fill="#E5E7EB" font-size="22" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">Cybersecurity and Network Analysis</text>
+    <text x="90" y="330" fill="#9CA3AF" font-size="14" font-family="'Consolas', 'Courier New', monospace">Bettercap | Ettercap | WiFi Security | MITM Analysis</text>
+    <text x="90" y="364" fill="#22D3EE" font-size="14" font-family="'Segoe UI', Arial, sans-serif">Built and analyzed ARP/DNS spoofing simulations in an academic security project.</text>
+  </g>
+
+  <g>
+    <rect x="650" y="256" width="560" height="154" rx="14" fill="#0B1220" stroke="#1F2937"/>
+    <rect x="668" y="276" width="6" height="114" rx="3" fill="#22D3EE"/>
+    <text x="686" y="298" fill="#E5E7EB" font-size="22" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">Backend and Product Engineering</text>
+    <text x="686" y="330" fill="#9CA3AF" font-size="14" font-family="'Consolas', 'Courier New', monospace">Python | Flask | JavaScript | SQL | C++</text>
+    <text x="686" y="364" fill="#22D3EE" font-size="14" font-family="'Segoe UI', Arial, sans-serif">Delivered full-stack and product prototypes for education and career-focused platforms.</text>
+  </g>
+</svg>
