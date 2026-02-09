@@ -10,6 +10,8 @@
 
 *Building intelligent systems at the intersection of DevOps, Cloud, and AI*
 
+![](https://komarev.com/ghpvc/?username=Firas-eng-hub&color=58A6FF&style=flat-square&label=PROFILE+VIEWS)
+
 </div>
 
 ---
@@ -44,6 +46,21 @@ me.say_hi()
 🔭 **Current Focus**: Building scalable cloud-native solutions, automating workflows with AI agents, and exploring BI tools like Apache Superset and Talend
 
 🎮 **Off-Screen**: Valorant tactician | The Witcher 3 explorer | E-sports enthusiast
+
+---
+
+## 🔨 Now Building
+
+<div align="center">
+
+| 🚀 Project | 📝 Description | 🛠️ Tech Stack | 📊 Status |
+|-----------|---------------|---------------|-----------|
+| **BI Dashboard Platform** | Building interactive dashboards with Apache Superset for data visualization | Apache Superset, PostgreSQL, Python | 🟡 In Progress |
+| **AI SaaS for MENA** | Local-market SaaS product with LLM integration | n8n, OpenAI API, Flask, PostgreSQL | 🟡 In Progress |
+| **Azure Cloud Projects** | Learning Azure services while building cloud-native apps | Azure, Docker, Kubernetes | 🟢 Active |
+| **Kubernetes HA Cluster** | Production-grade K8s cluster with monitoring & auto-scaling | K8s, Prometheus, Grafana, Ansible | 🟢 Active |
+
+</div>
 
 ---
 
@@ -97,6 +114,74 @@ me.say_hi()
 
 ### ☸️ High-Availability Kubernetes Cluster Deployment
 **DevOps Internship @ L2T (Summer 2024)**
+
+<details>
+<summary>🏗️ <b>View Architecture Diagram</b></summary>
+
+```mermaid
+graph TB
+    subgraph "Load Balancer Layer"
+        LB[HAProxy Load Balancer]
+    end
+    
+    subgraph "Kubernetes Control Plane"
+        M1[Master Node 1<br/>API Server]
+        M2[Master Node 2<br/>API Server]
+        M3[Master Node 3<br/>API Server]
+    end
+    
+    subgraph "Worker Nodes"
+        W1[Worker Node 1<br/>Pods & Services]
+        W2[Worker Node 2<br/>Pods & Services]
+        W3[Worker Node 3<br/>Pods & Services]
+    end
+    
+    subgraph "Monitoring & Management"
+        LENS[Lens Dashboard]
+        MON[Prometheus/Grafana]
+    end
+    
+    subgraph "Deployment Automation"
+        ANS[Ansible Playbooks]
+        KS[Kubespray]
+    end
+    
+    LB --> M1
+    LB --> M2
+    LB --> M3
+    
+    M1 --> W1
+    M1 --> W2
+    M1 --> W3
+    M2 --> W1
+    M2 --> W2
+    M2 --> W3
+    M3 --> W1
+    M3 --> W2
+    M3 --> W3
+    
+    LENS -.-> M1
+    MON -.-> W1
+    MON -.-> W2
+    MON -.-> W3
+    
+    ANS -.-> KS
+    KS -.-> M1
+    KS -.-> M2
+    KS -.-> M3
+    
+    style LB fill:#58A6FF
+    style M1 fill:#238636
+    style M2 fill:#238636
+    style M3 fill:#238636
+    style W1 fill:#1F6FEB
+    style W2 fill:#1F6FEB
+    style W3 fill:#1F6FEB
+```
+
+</details>
+
+**Key Achievements:**
 - Deployed multi-node Kubernetes clusters with **Kubespray**, **Docker**, and **Ansible**
 - Implemented HA architecture with HAProxy load balancing
 - Managed cluster monitoring and observability using **Lens**
@@ -135,25 +220,68 @@ me.say_hi()
   <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Firas-eng-hub&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
 </a>
 
-<br/>
+</div>
 
-<a href="https://github.com/Firas-eng-hub">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Firas-eng-hub&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak"/>
-</a>
+---
 
-<br/>
+## 🔥 Streak Stats
 
-<a href="https://github.com/Firas-eng-hub">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area_color=58A6FF&area=true" alt="Activity Graph"/>
-</a>
+<div align="center">
 
-<br/>
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Firas-eng-hub&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&sideLabels=C9D1D9)](https://github.com/Firas-eng-hub)
 
-### 📈 Profile Stats
+</div>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Firas-eng-hub&color=58A6FF&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/Firas-eng-hub?style=for-the-badge&color=58A6FF&labelColor=0D1117)
-![Stars](https://img.shields.io/github/stars/Firas-eng-hub?style=for-the-badge&color=58A6FF&labelColor=0D1117)
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Firas-eng-hub&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/Firas-eng-hub)
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&custom_title=Firas's%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area_color=58A6FF&area=true&theme=tokyo-night)](https://github.com/Firas-eng-hub)
+
+</div>
+
+---
+
+## 📊 Detailed Analytics
+
+<div align="center">
+
+### 📅 Contribution Heatmap
+[![Firas's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true&custom_title=Annual%20Contribution%20Activity)](https://github.com/Firas-eng-hub)
+
+### 💻 Coding Activity
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Firas-eng-hub&theme=tokyonight" alt="Profile Summary"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Firas-eng-hub&theme=tokyonight" alt="Top Languages by Repo"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Firas-eng-hub&theme=tokyonight" alt="Top Languages by Commit"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Firas-eng-hub&theme=tokyonight" alt="Stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Firas-eng-hub&theme=tokyonight&utcOffset=1" alt="Productive Time"/>
+
+</div>
+
+---
+
+## 🌍 Visitor Map
+
+<div align="center">
+
+[![Visitor Map](https://visitcount.itsvg.in/api?id=Firas-eng-hub&label=Profile%20Views&color=6&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 </div>
 
@@ -245,7 +373,13 @@ mindmap
 
 **⚡ Fun Fact**: I believe the best solutions emerge at the intersection of automation, intelligence, and creativity!
 
-![Visitor Count](https://profile-counter.glitch.me/Firas-eng-hub/count.svg)
+---
+
+### 📊 Profile Metrics
+
+![Followers](https://img.shields.io/github/followers/Firas-eng-hub?style=for-the-badge&color=58A6FF&labelColor=0D1117&logo=github)
+![Stars](https://img.shields.io/github/stars/Firas-eng-hub?style=for-the-badge&color=58A6FF&labelColor=0D1117&logo=github)
+![Repositories](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=58A6FF&labelColor=0D1117&label=Repos&query=$.public_repos&url=https://api.github.com/users/Firas-eng-hub&logo=github)
 
 ⭐️ From [Firas-eng-hub](https://github.com/Firas-eng-hub) | *Last Updated: February 2025*
 
