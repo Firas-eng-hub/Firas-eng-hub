@@ -130,13 +130,30 @@ me.say_hi()
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Firas-eng-hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9)
+<a href="https://github.com/Firas-eng-hub">
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Firas-eng-hub&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Firas-eng-hub&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
+</a>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Firas-eng-hub&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9)
+<br/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Firas-eng-hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
+<a href="https://github.com/Firas-eng-hub">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Firas-eng-hub&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak"/>
+</a>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9)
+<br/>
+
+<a href="https://github.com/Firas-eng-hub">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area_color=58A6FF&area=true" alt="Activity Graph"/>
+</a>
+
+<br/>
+
+### 📈 Profile Stats
+
+![Profile Views](https://komarev.com/ghpvc/?username=Firas-eng-hub&color=58A6FF&style=for-the-badge&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/Firas-eng-hub?style=for-the-badge&color=58A6FF&labelColor=0D1117)
+![Stars](https://img.shields.io/github/stars/Firas-eng-hub?style=for-the-badge&color=58A6FF&labelColor=0D1117)
 
 </div>
 
