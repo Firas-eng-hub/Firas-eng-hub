@@ -20,28 +20,76 @@
 
 ## 🎯 About Me
 
-```text
-┌──────────────────────── FIRAS://OPS-CONSOLE ────────────────────────┐
-│ STATUS      : Online                                                 │
-│ BASE        : Tunisia 🇹🇳                                             │
-│ SCHOOL      : ENIT — École Nationale d'Ingénieurs de Tunis          │
-│ ROLE        : Telecommunications Engineering Student                 │
-│                                                                    │
-│ MODULES     : BI & Data Analytics                                  │
-│               DevOps & Cloud Architecture                          │
-│               AI Workflow Automation                               │
-│               Cybersecurity & Network Defense                      │
-│                                                                    │
-│ NEXT_UP     : Azure Fundamentals                                   │
-│               Kubernetes at Scale                                  │
-│               LLM Integration & Customization                      │
-│                                                                    │
-│ MOTTO       : Build with purpose. Automate with intelligence.      │
-└─────────────────────────────────────────────────────────────────────┘
+<div align="center">
+
+```bash
+┌─[firas@cyber-terminal]─[~/profile]
+└──╼ $ boot --session engineer
+[OK] Identity loaded
+[OK] Mission loaded
+[OK] Collaboration channel open
 ```
 
+</div>
+
+<details>
+<summary><b>▶ run ./whoami.sh</b></summary>
+
+```bash
+name       : Mohamed Firas Berriri
+location   : Tunisia 🇹🇳
+education  : ENIT — École Nationale d'Ingénieurs de Tunis
+role       : Telecommunications Engineering Student
+```
+
+</details>
+
+<details>
+<summary><b>▶ run ./modules --active</b></summary>
+
+```bash
+[01] Business Intelligence & Data Analytics
+[02] DevOps & Cloud Architecture
+[03] AI Workflow Automation
+[04] Cybersecurity & Network Defense
+```
+
+</details>
+
+<details>
+<summary><b>▶ run ./roadmap --next</b></summary>
+
+```bash
+-> Microsoft Azure Fundamentals Certification
+-> Kubernetes Orchestration at Scale
+-> LLM Integration & Customization
+```
+
+</details>
+
+<details>
+<summary><b>▶ run ./play-mode --offscreen</b></summary>
+
+```bash
+favorite_games : Valorant, The Witcher 3
+vibe           : Competitive + Strategy
+```
+
+</details>
+
 - 🔭 **Current Focus**: Building scalable cloud-native solutions, automating workflows with AI agents, and exploring BI tools like Apache Superset and Talend
-- 🎮 **Off-Screen**: Valorant tactician | The Witcher 3 explorer | E-sports enthusiast
+- 🛰️ **Mission**: Build useful systems where cloud, AI, and automation meet
+
+## 🗺️ Roadmap
+
+```bash
+┌─[firas@cyber-terminal]─[~/roadmap]
+└──╼ $ cat 2026.plan
+[Q1] Azure Fundamentals Certification      [███████░░░] 70%
+[Q2] Kubernetes HA + Production Patterns   [██████░░░░] 60%
+[Q3] AI SaaS for MENA (v1 launch)          [████░░░░░░] 40%
+[Q4] BI Platform + Automation Expansion    [███░░░░░░░] 30%
+```
 
 ---
 
