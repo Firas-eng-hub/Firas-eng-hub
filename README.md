@@ -4,6 +4,8 @@
 
 ### 🚀 Telecommunications Engineer | DevOps Enthusiast | AI & Cloud Explorer
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=21&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Telecommunications+Engineer;DevOps+%7C+Cloud+%7C+AI+Builder;Building+scalable+systems+with+purpose)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-firas-berriri-287b06337/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:firasberriri2017@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Firas-eng-hub)
@@ -185,6 +187,26 @@ graph TB
 [![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Firas-eng-hub&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
 
 [![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&custom_title=Firas%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&theme=tokyo-night)](https://github.com/Firas-eng-hub)
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Firas-eng-hub&theme=tokyonight" alt="GitHub profile summary" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Firas-eng-hub&theme=tokyonight" alt="Repos per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Firas-eng-hub&theme=tokyonight" alt="Most commit language" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Firas-eng-hub&theme=tokyonight" alt="GitHub stats card" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Firas-eng-hub&theme=tokyonight&utcOffset=1" alt="Productive time card" />
+
+</div>
+
+<div align="center">
+
+[![Top Contributed Repositories](https://github-contributor-stats.vercel.app/api?username=Firas-eng-hub&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)](https://github.com/Firas-eng-hub?tab=repositories)
+
+<img src="https://ghchart.rshah.org/58A6FF/Firas-eng-hub" alt="GitHub contribution calendar heatmap" />
 
 </div>
 
