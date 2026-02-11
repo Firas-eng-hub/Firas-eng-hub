@@ -173,20 +173,18 @@ graph TB
 
 <div align="center">
 
-<a href="https://github.com/Firas-eng-hub">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Firas-eng-hub&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Firas-eng-hub&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
-</a>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Firas-eng-hub&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Firas-eng-hub&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Firas-eng-hub&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&sideLabels=C9D1D9)](https://github.com/Firas-eng-hub)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Firas-eng-hub&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9)](https://git.io/streak-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Firas-eng-hub&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=12&margin-h=12)](https://github.com/Firas-eng-hub)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Firas-eng-hub&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&custom_title=Firas's%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area_color=58A6FF&area=true&theme=tokyo-night)](https://github.com/Firas-eng-hub)
+[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Firas-eng-hub&custom_title=Firas%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&theme=tokyo-night)](https://github.com/Firas-eng-hub)
 
 </div>
 
@@ -219,30 +217,10 @@ graph TB
 
 ## 💼 Professional Interests
 
-```mermaid
-mindmap
-  root((Firas Berriri))
-    Business Intelligence
-      Apache Superset
-      Talend
-      Data Warehousing
-      Reporting Solutions
-    DevOps & Cloud
-      Kubernetes Orchestration
-      Azure Cloud
-      CI/CD Pipelines
-      Infrastructure as Code
-    AI & Automation
-      LLM Integration
-      n8n Workflows
-      Intelligent Agents
-      API Orchestration
-    Cybersecurity
-      Network Security
-      Penetration Testing
-      MITM Attacks
-      Security Hardening
-```
+- **Business Intelligence**: Apache Superset, Talend, Data Warehousing, Reporting Solutions
+- **DevOps & Cloud**: Kubernetes Orchestration, Azure Cloud, CI/CD Pipelines, Infrastructure as Code
+- **AI & Automation**: LLM Integration, n8n Workflows, Intelligent Agents, API Orchestration
+- **Cybersecurity**: Network Security, Penetration Testing, MITM Attacks, Security Hardening
 
 ---
 

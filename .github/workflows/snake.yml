@@ -5,26 +5,65 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    permissions:
-      contents: write
+    timeout-minutes: 10
 
     steps:
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Firas-eng-hub
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Generate contribution snake SVGs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          OUTPUTS=$'dist/github-contribution-grid-snake.svg\ndist/github-contribution-grid-snake-dark.svg?palette=github-dark'
+          docker run --rm \
+            -e INPUT_GITHUB_USER_NAME="${GH_USER}" \
+            -e INPUT_OUTPUTS="${OUTPUTS}" \
+            -e GITHUB_TOKEN="${GH_TOKEN}" \
+            -v "${PWD}:/work" \
+            -w /work \
+            platane/snk@sha256:b107f810d467a26b1e7ac46751073d1247728421155a47e77f6cd2dc66dcc74c
+
+      - name: Publish snake to output branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/snake-artifacts
+          cp dist/github-contribution-grid-snake.svg /tmp/snake-artifacts/
+          cp dist/github-contribution-grid-snake-dark.svg /tmp/snake-artifacts/
+
+          git init snake-output
+          cd snake-output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${REPOSITORY}.git"
+
+          if git ls-remote --exit-code --heads origin output >/dev/null 2>&1; then
+            git fetch origin output
+            git checkout -B output origin/output
+          else
+            git checkout --orphan output
+          fi
+
+          find . -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
+          cp /tmp/snake-artifacts/github-contribution-grid-snake.svg .
+          cp /tmp/snake-artifacts/github-contribution-grid-snake-dark.svg .
+          touch .nojekyll
+
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg .nojekyll
+
+          if git diff --cached --quiet; then
+            echo "No snake changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update contribution snake"
+          git push origin output
