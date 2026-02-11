@@ -20,29 +20,24 @@
 
 ## 🎯 About Me
 
-```python
-class FirasBerriri:
-    def __init__(self):
-        self.location = "Tunisia 🇹🇳"
-        self.education = "ENIT - École Nationale d'Ingénieurs de Tunis"
-        self.role = "Telecommunications Engineering Student"
-        self.interests = [
-            "Business Intelligence & Data Analytics",
-            "DevOps & Cloud Architecture",
-            "AI Workflow Automation",
-            "Cybersecurity & Network Defense"
-        ]
-        self.currently_learning = [
-            "Microsoft Azure (Fundamentals Certification)",
-            "Kubernetes Orchestration at Scale",
-            "LLM Integration & Customization"
-        ]
-
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together 🚀")
-
-me = FirasBerriri()
-me.say_hi()
+```text
+┌──────────────────────── FIRAS://OPS-CONSOLE ────────────────────────┐
+│ STATUS      : Online                                                 │
+│ BASE        : Tunisia 🇹🇳                                             │
+│ SCHOOL      : ENIT — École Nationale d'Ingénieurs de Tunis          │
+│ ROLE        : Telecommunications Engineering Student                 │
+│                                                                    │
+│ MODULES     : BI & Data Analytics                                  │
+│               DevOps & Cloud Architecture                          │
+│               AI Workflow Automation                               │
+│               Cybersecurity & Network Defense                      │
+│                                                                    │
+│ NEXT_UP     : Azure Fundamentals                                   │
+│               Kubernetes at Scale                                  │
+│               LLM Integration & Customization                      │
+│                                                                    │
+│ MOTTO       : Build with purpose. Automate with intelligence.      │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 - 🔭 **Current Focus**: Building scalable cloud-native solutions, automating workflows with AI agents, and exploring BI tools like Apache Superset and Talend
@@ -205,8 +200,6 @@ graph TB
 <div align="center">
 
 [![Top Contributed Repositories](https://github-contributor-stats.vercel.app/api?username=Firas-eng-hub&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)](https://github.com/Firas-eng-hub?tab=repositories)
-
-<img src="https://ghchart.rshah.org/58A6FF/Firas-eng-hub" alt="GitHub contribution calendar heatmap" />
 
 </div>
 
