@@ -1,0 +1,44 @@
+name: Profile Refresh
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect repository metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/collect-repos.mjs
+
+      - name: Generate SVG assets
+        run: node scripts/build-assets.mjs
+
+      - name: Generate README
+        run: node scripts/build-readme.mjs
+
+      - name: Commit refreshed profile artifacts
+        run: |
+          if [ -n "$(git status --porcelain README.md assets data/repos.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md assets data/repos.json
+            git commit -m "chore(profile): refresh dashboard artifacts"
+            git push
+          else
+            echo "No profile changes detected."
+          fi
