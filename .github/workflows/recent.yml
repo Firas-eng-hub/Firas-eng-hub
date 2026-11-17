@@ -1,4 +1,4 @@
-name: Update Recent Saves
+name: Update Recently Pushed
 
 on:
   workflow_dispatch:
@@ -31,11 +31,11 @@ jobs:
           set -euo pipefail
           gh api "users/${GH_USER}/repos?sort=pushed&per_page=30&type=owner" \
             --jq '[.[] | select(.fork | not) | select(.name != env.GH_USER)] | .[:5][]
-                  | "| 💾 [\(.name)](\(.html_url)) | \((.description // "—") | gsub("\\|"; "/") | gsub("\\s+"; " ") | ltrimstr(" ") | rtrimstr(" ") | if length > 90 then .[:87] + "…" else . end) | `\(.language // "—")` | \(.pushed_at[:10]) |"' \
+                  | "| [\(.name)](\(.html_url)) | \((.description // "—") | gsub("\\|"; "/") | gsub("\\s+"; " ") | ltrimstr(" ") | rtrimstr(" ") | if length > 90 then .[:87] + "…" else . end) | `\(.language // "—")` | \(.pushed_at[:10]) |"' \
             > /tmp/rows.md
 
           {
-            echo "| Save slot | Description | Lang | Last saved |"
+            echo "| Repository | Description | Language | Last push |"
             echo "|---|---|---|---|"
             cat /tmp/rows.md
           } > /tmp/block.md
@@ -59,5 +59,5 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "chore: update recent saves"
+          git commit -am "chore: update recently pushed repos"
           git push
