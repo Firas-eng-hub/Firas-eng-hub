@@ -118,9 +118,9 @@ flowchart LR
 <table>
   <tr>
     <td colspan="2" align="center">
-      <a href="https://olivesoft-pres.vercel.app"><img src="assets/demo-olivebranch.jpg" alt="OliveBranch — CSTAM 3.0 technical pitch" width="70%" /></a><br>
-      <code>200 OK</code> <b>OliveBranch</b> — RFP intelligence: from public tender to commercial proposal · CSTAM 3.0 pitch (team Intégrale IT)<br>
-      <sub><a href="https://olivesoft-pres.vercel.app">live</a> · <a href="https://github.com/Firas-eng-hub/Olivesoft-Pres">source</a></sub>
+      <a href="https://olivesoft-lime.vercel.app"><img src="assets/demo-olivebranch.jpg" alt="OliveBranch — RFP intelligence platform" width="70%" /></a><br>
+      <code>200 OK</code> <b>OliveBranch</b> — RFP intelligence: scans public tenders daily, scores them against internal CVs &amp; references, drafts an editable PPTX/PDF proposal<br>
+      <sub><a href="https://olivesoft-lime.vercel.app">live</a> · private repo</sub>
     </td>
   </tr>
   <tr>
