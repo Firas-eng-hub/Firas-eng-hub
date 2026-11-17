@@ -1,0 +1,56 @@
+name: Update Recent Saves
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build recent repos block
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          gh api "users/${GH_USER}/repos?sort=pushed&per_page=30&type=owner" \
+            --jq '[.[] | select(.fork | not) | select(.name != env.GH_USER)] | .[:5][]
+                  | "| 💾 [\(.name)](\(.html_url)) | \((.description // "—") | gsub("\\|"; "/") | gsub("\\s+"; " ") | ltrimstr(" ") | rtrimstr(" ") | if length > 90 then .[:87] + "…" else . end) | `\(.language // "—")` | \(.pushed_at[:10]) |"' \
+            > /tmp/rows.md
+
+          {
+            echo "| Save slot | Description | Lang | Last saved |"
+            echo "|---|---|---|---|"
+            cat /tmp/rows.md
+          } > /tmp/block.md
+
+          python3 - <<'PY'
+          import re, pathlib
+          readme = pathlib.Path("README.md")
+          block = pathlib.Path("/tmp/block.md").read_text().strip()
+          text = readme.read_text()
+          new = re.sub(r"(<!-- RECENT:START -->).*?(<!-- RECENT:END -->)",
+                       lambda m: f"{m.group(1)}\n{block}\n{m.group(2)}", text, flags=re.S)
+          readme.write_text(new)
+          PY
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet README.md; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update recent saves"
+          git push
