@@ -178,11 +178,11 @@ leadership/
 <!-- RECENT:START -->
 | Repository | Description | Language | Last push |
 |---|---|---|---|
-| [Enit_Connect](https://github.com/Firas-eng-hub/Enit_Connect) | TIC-Connect is a full-stack web platform designed to connect students, companies, and a… | `HTML` | 2026-11-16 |
-| [Olivesoft-Pres](https://github.com/Firas-eng-hub/Olivesoft-Pres) | Olivesoft presentation | `JavaScript` | 2026-11-12 |
+| [Enit_Connect](https://github.com/Firas-eng-hub/Enit_Connect) | ENIT Connect — career platform for ENIT students, alumni and companies. React + TypeScr… | `HTML` | 2026-11-18 |
+| [Olivesoft-Pres](https://github.com/Firas-eng-hub/Olivesoft-Pres) | OliveBranch technical pitch deck — CSTAM 3.0 (team Intégrale IT): from public tender to… | `JavaScript` | 2026-11-12 |
 | [NIDS-TinyML](https://github.com/Firas-eng-hub/NIDS-TinyML) | A research prototype for training a network-flow classifier on CSE-CIC-IDS2018 CSVs, ex… | `Python` | 2026-11-10 |
-| [Portfolio](https://github.com/Firas-eng-hub/Portfolio) | — | `JavaScript` | 2026-10-19 |
-| [Utopia](https://github.com/Firas-eng-hub/Utopia) | Your career guide | `Python` | 2026-10-18 |
+| [Portfolio](https://github.com/Firas-eng-hub/Portfolio) | Cosmic-themed personal portfolio — React, Vite, Framer Motion and Tailwind CSS. | `JavaScript` | 2026-10-19 |
+| [Utopia](https://github.com/Firas-eng-hub/Utopia) | UtopiaHire — AI career platform for MENA & Sub-Saharan Africa: CV parsing, job matching… | `Python` | 2026-10-18 |
 <!-- RECENT:END -->
 
 ### `$ top` — activity
