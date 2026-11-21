@@ -178,7 +178,7 @@ leadership/
 <!-- RECENT:START -->
 | Repository | Description | Language | Last push |
 |---|---|---|---|
-| [Enit_Connect](https://github.com/Firas-eng-hub/Enit_Connect) | ENIT Connect — career platform for ENIT students, alumni and companies. React + TypeScr… | `HTML` | 2026-11-19 |
+| [Enit_Connect](https://github.com/Firas-eng-hub/Enit_Connect) | ENIT Connect — career platform for ENIT students, alumni and companies. React + TypeScr… | `HTML` | 2026-11-20 |
 | [Olivesoft-Pres](https://github.com/Firas-eng-hub/Olivesoft-Pres) | OliveBranch technical pitch deck — CSTAM 3.0 (team Intégrale IT): from public tender to… | `JavaScript` | 2026-11-12 |
 | [NIDS-TinyML](https://github.com/Firas-eng-hub/NIDS-TinyML) | A research prototype for training a network-flow classifier on CSE-CIC-IDS2018 CSVs, ex… | `Python` | 2026-11-10 |
 | [Portfolio](https://github.com/Firas-eng-hub/Portfolio) | Cosmic-themed personal portfolio — React, Vite, Framer Motion and Tailwind CSS. | `JavaScript` | 2026-10-19 |
